@@ -1,0 +1,12 @@
+MSVC Compilation Warnings [Windows Only]
+You may see unnecessary warnings when compiling your program on Windows. If you would like to remove these warnings, follow the steps below.
+
+Instead of compiling with: 
+cl triplex.cpp
+
+Try adding /EHsc to the end of the command:
+cl main.cpp /EHsc
+
+For further reading: https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=vs-2019
+
+- Gavin
